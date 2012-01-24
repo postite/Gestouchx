@@ -34,7 +34,7 @@ class Touch implements IGestureDelegate
 {
 	var box:Box;
 	var initX:Float;
-	//private var gestures:Array<Gesture> = new Array<Gesture>();
+	
 
 
 public function gestureShouldReceiveTouch(gesture:Gesture, touch:org.gestouch.core.Touch):Bool
