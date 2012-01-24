@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+  <app title="touch" main="Touch" package="com.postite.touch" version="1.0.0" company="postite" />
+  <window width="0" height="0" fps="30" orientation="portrait" resizable="true" />
+ 
+ 
+  <set name="BUILD_DIR" value="Export" />
+  <set name="SWF_VERSION" value="10.1" />
+
+  <classpath name="Source" />
+
+  <haxelib name="nme" />
+  <haxelib name="actuate" />
+  <haxelib name="hxs" />
+
+  <assets path="Assets" rename="assets" include="*" exclude="nme.svg" />
+  
+  <icon name="Assets/nme.svg" />
+
+  <ndll name="std" />
+  <ndll name="regexp" />
+  <ndll name="zlib" />
+  <ndll name="nme" haxelib="nme" />
+
+</project>
