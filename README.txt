@@ -9,3 +9,5 @@ This framework is aimed to simplify the process of detecting raw TouchEvents and
 
 This port aim to push Gestouch to the NME target using haxe Langage.
 With NME, Gestouch is useable on IOS,  ANDROID ,and flash.
+
+more infos to come ...
