@@ -22,8 +22,8 @@ import org.gestouch.core.GesturesManager;
 import org.gestouch.gestures.SwipeGesture;
 import org.gestouch.events.SwipeGestureEvent;
 import org.gestouch.core.TouchesManager;
- import org.gestouch.gestures.SwipeGesture;
- import org.gestouch.events.SwipeGestureEvent;
+import org.gestouch.gestures.SwipeGesture;
+import org.gestouch.events.SwipeGestureEvent;
 import org.gestouch.gestures.RotateGesture;
 import org.gestouch.events.RotateGestureEvent;
 
@@ -68,6 +68,7 @@ public function gestureShouldReceiveTouch(gesture:Gesture, touch:org.gestouch.co
 
 		trace("hello18");
 		box= new Box();
+		box.load();
 		box.addEventListener(Event.ADDED_TO_STAGE,onStage);
 		
 		Lib.current.addChild(box);
